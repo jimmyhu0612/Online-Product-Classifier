@@ -18,7 +18,7 @@
 **WARNING** 請確保不會有資料洩漏(data leakage)，偷看的情況發生；且需避免class imbalance的問題
 將資料集進行切割，以進行模型的運算
 
-# model.py：
+# main.py：
 進行模型的建立、測量與視覺化  
 在這支程式中，使用了bert-base-chinese的tokenizer，並且使用LSTM進行建模時使用早停法(patience = 3)，超參數(hyperparameter)的部分使用grid search來找出最佳的參數組合，最後保留最佳超參數並輸出分類錯誤結果並繪製混淆矩陣
 
